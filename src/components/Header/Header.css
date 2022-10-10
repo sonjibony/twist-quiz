@@ -3,10 +3,25 @@ height: 400px;
 }
 .banner{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 2fr 1fr;
     gap: 100px;
+    padding-left: 20px;
+    
+}
+.banner-info{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .title{
 font-size: 5vw;
 color: #46624C;
+}
+.banner-text{
+    /* padding-left: 25px;
+padding-right: 30px; */
+    width: 100%;
+    line-height: 30px;
 }

@@ -1,0 +1,11 @@
+.quiz-card img{
+    height: 200px;
+}
+.quiz-card {
+   border: 2px solid salmon; 
+}
+.card-info{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
