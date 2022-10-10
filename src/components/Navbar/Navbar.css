@@ -1,0 +1,25 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #F4F4F4;
+
+}
+.nav-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+height: 50px;
+font-weight: bolder;
+}
+.nav a{
+    margin-left: 10px;
+text-decoration: none;
+font-size: larger;
+font-weight: 600;
+color: black;
+}

@@ -1,0 +1,12 @@
+.banner img{
+height: 400px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+}
+.title{
+font-size: 5vw;
+color: #46624C;
+}
