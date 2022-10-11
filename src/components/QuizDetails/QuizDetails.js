@@ -4,12 +4,12 @@ import SingleQuiz from '../SingleQuiz/SingleQuiz';
 import './QuizDetails.css';
 const QuizDetails = () => {
     const details = useLoaderData();
-    console.log(details.data.questions);
+    console.log(details.data);
     return (
         <div>
 {
     details.data.questions.map(detail => <SingleQuiz
-    key={details.data.questions.id}
+    key={detail.id}
     detail = {detail}
    
    >

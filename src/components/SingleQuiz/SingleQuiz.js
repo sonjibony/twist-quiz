@@ -5,7 +5,11 @@ const SingleQuiz = ({detail}) => {
     return (
         <div className='detail'>
             <p>{question}</p>
-            <p>{options}</p>
+            {
+                options.map ( op =>
+            <p> <input type="radio" name="option"/> {op}</p>
+                )
+            }
         </div>
     );
 };
