@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
 
 const SingleQuiz = ({detail,index}) => {
-    const {question, options,id,correctAnswer} = detail;
+    const {question, options,correctAnswer} = detail;
 
 const onAnswerSelect = selectedAnswer =>{
     if(selectedAnswer===correctAnswer){
