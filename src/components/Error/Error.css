@@ -1,0 +1,45 @@
+.error-container img{
+    height: 400px;
+    width: 400px;
+    
+    /* background-image: url("https://img.freepik.com/free-vector/404-error-with-cute-animal-concept-illustration_114360-1900.jpg?w=740&t=st=1665513481~exp=1665514081~hmac=4b87a38273b75677a23b130a1c3c49de8c863423b09cbe37a4fb54ee34292431");
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh; */
+    
+}
+.error-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* margin-top: 100px; */
+    background:fff;
+    margin-top: 70px;
+}
+.msg-one{
+    font-size: 50px;
+    font-weight: bolder;
+    /* color: #0A57A1; */
+    color:#1C2F36  ;
+}
+.msg-two{
+    font-size: 20px;
+    line-height: 35px;
+    color:#1C2F36  ;
+}
+@media screen and (max-width: 900px){
+    .error-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        /* margin-top: 100px; */
+        background:fff;
+        margin-top: 70px;
+    }
+}
