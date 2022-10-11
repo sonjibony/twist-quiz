@@ -1,0 +1,15 @@
+.question-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+}
+.question{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3px;
+    padding-left: 70px;
+    
+}
