@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Header from '../Header/Header';
 import Quiz from '../Quiz/Quiz';
 import './Home.css'
 const Home = () => {
     const quiz = useLoaderData();
-    // console.log(quiz.data[0].name);
-    const handleQuizDetail = () =>{
-        console.log('pressed')
-    }
+    // console.log(quiz.data[0].id);
+
+    
+   
     return (
         <div className='home'>
           <Header></Header>
@@ -19,7 +19,7 @@ const Home = () => {
           quiz.data.map(qz => <Quiz
           key={qz.id}
           quiz= {qz}
-          handleQuizDetail= {handleQuizDetail}
+        
           ></Quiz>)
           }
           </div>

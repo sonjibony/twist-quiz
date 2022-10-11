@@ -14,7 +14,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid blue;
+    border: none;
+    border-radius: 15px;
+    background-color: aquamarine;
+}
+.option:hover{
+    background-color: blueviolet;
 }
 .quiz-options{
     display: grid;
