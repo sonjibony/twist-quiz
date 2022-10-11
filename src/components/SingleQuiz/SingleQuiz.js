@@ -10,13 +10,16 @@ const SingleQuiz = ({detail,index}) => {
 
 const onAnswerSelect = selectedAnswer =>{
     if(selectedAnswer===correctAnswer){
-        // alert('correct')
+        
         toast.success('Correct Answer!',{autoClose:1000});
     }
     else{
-        // alert('incorrect')
+    
         toast.error('Wrong Answer!',{autoClose:1000});
     }
+}
+const onEyeSelect = () =>{
+toast.info(correctAnswer)
 }
     // console.log(detail)
     return (
@@ -24,8 +27,8 @@ const onAnswerSelect = selectedAnswer =>{
             <div className="question-container">
        {/* <h4>{index}.</h4> 
             <h4 className='question' dangerouslySetInnerHTML={{__html:question}}></h4> */}
-            <h4 className='question' dangerouslySetInnerHTML={{__html:`${index}.${question}`}}></h4>
-            <FontAwesomeIcon icon={faEye}></FontAwesomeIcon>
+              <h4 className='question' dangerouslySetInnerHTML={{__html:`${index}.${question}`}}></h4>
+            <FontAwesomeIcon icon={faEye} onClick={onEyeSelect}></FontAwesomeIcon>
             </div>
             <div className='quiz-options'>
             {

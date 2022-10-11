@@ -9,7 +9,7 @@ import Main from './layouts/Main';
 function App() {
   const router = createBrowserRouter([
 {
-  path: '/',
+  path: '/', 
   element: <Main></Main>,
   children: [
     {
