@@ -2,7 +2,15 @@
     background-color: #F4F4F4;
 }
 .quiz-container{
+    padding-top: 40px;
+    padding-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 15px;
+    gap: 10px;
+    
+}
+.line{
+    height: 5px;
+    width: 50%;
+    background-color: #46624c;
 }

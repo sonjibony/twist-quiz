@@ -1,11 +1,20 @@
 .quiz-card img{
-    height: 200px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+
 }
 .quiz-card {
-   border: 2px solid salmon; 
+  box-shadow: 10px 10px 10px white;
+   width: 300px;
 }
 .card-info{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.start-btn{
+   padding: 5px 20px; 
 }
