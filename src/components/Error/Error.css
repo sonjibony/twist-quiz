@@ -28,6 +28,7 @@
 .msg-two{
     font-size: 20px;
     line-height: 35px;
+    padding-bottom: 15px ;
     color:#1C2F36  ;
 }
 @media screen and (max-width: 900px){
