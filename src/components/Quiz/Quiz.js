@@ -10,7 +10,7 @@ const Quiz = ({quiz}) => {
             <h5>{name}</h5>
             <h5>Quantity</h5>
             <Link to={`/quiz/${id}`}>
-            <button className='start-btn'>Start </button>
+            <button className='start-btn'>Start Quiz </button>
  </Link>
            </div>
         </div>
