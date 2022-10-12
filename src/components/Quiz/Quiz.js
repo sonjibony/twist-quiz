@@ -8,6 +8,7 @@ const Quiz = ({quiz}) => {
     const {name,logo,id,total} = quiz;
     
     return (
+        // QUIZ TOPICS
         <div className='quiz-card'>
            <img src={logo} alt="" ></img>  
            <div className="card-info">

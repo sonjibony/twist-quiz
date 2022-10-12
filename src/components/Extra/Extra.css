@@ -1,112 +1,102 @@
-.course-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 150px;
-    margin-right: 100px; 
-    margin-top: 10px;
-    padding-bottom: 50px;
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-top: 10px;
+  padding-bottom: 50px;
 }
-.course-title{
-color: #6a677a;
+.course-title {
+  color: #6a677a;
+}
+.course-detail {
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.git-course img {
+  height: 200px;
+  width: 200px;
+}
+.git-course {
+  border: 2px solid #6a677a;
+  width: 300px;
+  height: 250px;
 
+  border-radius: 10px;
 }
-.course-detail{
-font-size: 20px;
-line-height: 30px;
-padding-left:90px ;
-padding-right:90px; 
+.css-course img {
+  height: 200px;
+  width: 200px;
 }
-.git-course img{
-    height: 200px;
-    width: 200px;
-    
+.css-course {
+  border: 2px solid #6a677a;
+  width: 300px;
+  height: 250px;
 
+  border-radius: 10px;
 }
-.git-course{
-    border:2px solid #6a677a;
-    width: 300px;
-    height: 250px;
-    
-    border-radius: 10px;
+.html-course img {
+  height: 200px;
+  width: 200px;
+}
+.html-course {
+  border: 2px solid #6a677a;
+  width: 300px;
+  height: 250px;
 
+  border-radius: 10px;
 }
-.css-course img{
-    height: 200px;
-    width: 200px;
+.js-course img {
+  height: 200px;
+  width: 200px;
 }
-.css-course{
-    border:2px solid #6a677a;
-    width: 300px;
-    height: 250px;
-    
-    border-radius: 10px;
+.js-course {
+  border: 2px solid #6a677a;
+  width: 300px;
+  height: 250px;
 
+  border-radius: 10px;
 }
-.html-course img{
-    height: 200px;
-    width: 200px;
+.computer-course img {
+  height: 200px;
+  width: 200px;
 }
-.html-course{
-    border:2px solid #6a677a;
-    width: 300px;
-    height: 250px;
-    
-    border-radius: 10px;
+.computer-course {
+  border: 2px solid #6a677a;
+  width: 300px;
+  height: 250px;
 
+  border-radius: 10px;
 }
-.js-course img{
-    height: 200px;
-    width: 200px;
+.react-course img {
+  height: 200px;
+  width: 200px;
 }
-.js-course{
-    border:2px solid #6a677a;
-    width: 300px;
-    height: 250px;
-    
-    border-radius: 10px;
+.react-course {
+  border: 2px solid #6a677a;
+  width: 300px;
+  height: 250px;
 
+  border-radius: 10px;
 }
-.computer-course img{
-    height: 200px;
-    width: 200px;
-}
-.computer-course{
-    border:2px solid #6a677a;
-    width: 300px;
-    height: 250px;
-    
-    border-radius: 10px;
-
-}
-.react-course img{
-    height: 200px;
-    width: 200px;
-}
-.react-course{
-    border:2px solid #6a677a;
-    width: 300px;
-    height: 250px;
-    
-    border-radius: 10px;
-
-}
-
 
 @media screen and (max-width: 900px) {
-    .course-container{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 15px;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
+  .course-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 @media screen and (max-width: 600px) {
-    .course-container{
-        display: flex;
-        flex-direction: column;
-    }
+  .course-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

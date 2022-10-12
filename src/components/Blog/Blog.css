@@ -1,120 +1,118 @@
-.blog-container{
-    background-color:#ffeddf ;
+.blog-container {
+  background-color: #ffeddf;
 }
 
-.blog-intro{
-    text-align: start;
-    padding-left: 100px;
-    padding-right: 55px;
-    
+.blog-intro {
+  text-align: start;
+  padding-left: 100px;
+  padding-right: 55px;
 }
-.greet{
-    margin-top: 0px;
-    padding-top: 20px;
-    padding-bottom:20px ;
-    font-size:50px;
-    padding-left: 15px;
-    border-left:5px solid  #6a677a;
-    color: #6a677a;
-    /* border-right:5px solid lightblue ; */
-    /* text-shadow: 15px 20px 5px lightblue; */
+.greet {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 50px;
+  padding-left: 15px;
+  border-left: 5px solid #6a677a;
+  color: #6a677a;
+  /* border-right:5px solid lightblue ; */
+  /* text-shadow: 15px 20px 5px lightblue; */
 }
-.tag-line{
-    font-size: 25px;
-    line-height: 35px;
-    padding-bottom: 50px;
+.tag-line {
+  font-size: 25px;
+  line-height: 35px;
+  padding-bottom: 50px;
 }
 
-.react-router img{
-height: 300px;
-width: 400px;
-object-fit: cover;
+.react-router img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
 }
-.react-router{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.ques-ans{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.ans{
-    font-size: 20px ;
-    line-height: 35px;
-}
-.ques{
-    color: #6a677a;
+.react-router {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 
+  margin-left: 100px;
+  margin-right: 100px;
 }
-.context-api img{
-height: 300px;
-width: 400px;
-object-fit: cover;
+.ques-ans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
 }
-.context-api{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    margin: 100px;
-    margin-bottom: 0px;
-    padding-bottom: 50px;
+.ans {
+  font-size: 20px;
+  line-height: 35px;
 }
-.use-ref img{
-height: 300px;
-width: 400px;
-object-fit: cover;
+.ques {
+  color: #6a677a;
 }
-.use-ref{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    
-    margin: 100px;
+.context-api img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
+.context-api {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+.use-ref img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
+.use-ref {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+  margin: 100px;
 }
 @media screen and (max-width: 900px) {
-    .react-router{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 30px;
-        
-        margin-left: 100px;
-        margin-right: 100px;
-    } 
-    .react-router img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        }
-    .use-ref{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        padding-top: 30px;
+  .react-router {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
 
-        margin: 100px;
-    } 
-    .use-ref img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        }
-    .context-api{
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-        padding-top: 30px;
-        margin: 100px;
-        margin-bottom: 0px;
-    } 
-    .context-api img{
-        height: 90%;
-        width: 100%;
-        object-fit: cover;
-        }
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .react-router img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .use-ref {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 30px;
+
+    margin: 100px;
+  }
+  .use-ref img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .context-api {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    margin: 100px;
+    margin-bottom: 0px;
+  }
+  .context-api img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+  }
 }

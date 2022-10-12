@@ -6,15 +6,17 @@ import Quiz from '../Quiz/Quiz';
 import './Home.css'
 const Home = () => {
     const quiz = useLoaderData();
-    // console.log(quiz.data[0].id);
+  
 
     
    
     return (
         <div className='home'>
+          {/* header component called */}
           <Header></Header>
           <h1 className='category-title'>Quiz Categories</h1>
           <hr className='line'/>
+          {/* quiz topics called */}
           <div className="quiz-container">
           {
           quiz.data.map(qz => <Quiz
@@ -25,6 +27,7 @@ const Home = () => {
           }
         
           </div>
+          {/* EXTRA  SECTION */}
           <AboutMe></AboutMe>
 
         </div>
