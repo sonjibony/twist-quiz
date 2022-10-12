@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleQuiz from '../SingleQuiz/SingleQuiz';
 import './QuizDetails.css';
@@ -10,7 +10,7 @@ const QuizDetails = () => {
     // console.log(details.data.questions[0].id);
     return (
         <div className='single-quiz'>
-            <h2>Quizzes Of {details.data.name}</h2>
+            <h2 className='quiz-title' >Quizzes Of {details.data.name}</h2>
 {
     
     details.data.questions.map((detail,index) => 

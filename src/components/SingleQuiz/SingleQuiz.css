@@ -1,6 +1,6 @@
 .detail{
     /* border: 2px solid red; */
-    background-color: aliceblue;
+    background-color: #ffeddf;
     margin-left: 15px;
     margin-right: 15px;
     border-radius: 7px;
@@ -16,10 +16,10 @@
     justify-content: center;
     border: none;
     border-radius: 15px;
-    background-color: aquamarine;
+    background-color: #6a677a;
 }
 .option:hover{
-    background-color: blueviolet;
+    background-color: #6a677abb;
 }
 .quiz-options{
     display: grid;
@@ -27,5 +27,18 @@
     gap: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    
+}
+@media screen and (max-width: 900px) {
+    .quiz-options{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .question-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faArrowRight,faEye } from '@fortawesome/free-solid-svg-icons';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 import './SingleQuiz.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
@@ -28,7 +28,9 @@ toast.info(correctAnswer)
        {/* <h4>{index}.</h4> 
             <h4 className='question' dangerouslySetInnerHTML={{__html:question}}></h4> */}
               <h4 className='question' dangerouslySetInnerHTML={{__html:`${index}.${question}`}}></h4>
+              <div>
             <FontAwesomeIcon icon={faEye} onClick={onEyeSelect}></FontAwesomeIcon>
+            </div>
             </div>
             <div className='quiz-options'>
             {

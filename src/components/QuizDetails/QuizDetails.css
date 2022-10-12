@@ -13,3 +13,19 @@
     padding-left: 70px;
     
 }
+.single-quiz{
+    background-color:#ffeddf ;
+}
+.quiz-title{
+    margin-top: 0px;
+    padding-top: 20px;
+}
+/* @media screen and (max-width: 900px) {
+    .question-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+} */

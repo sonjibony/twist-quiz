@@ -1,27 +1,44 @@
-.banner img{
-height: 400px;
-}
 .banner{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 100px;
-    padding-left: 20px;
+    grid-template-columns: 1fr 4fr;
+    
+
     
 }
 .banner-info{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    /* padding-left: 30px; */
 }
 .title{
 font-size: 5vw;
-color: #46624C;
+color: #6A677A;
+text-align: left;
 }
 .banner-text{
-    /* padding-left: 25px;
-padding-right: 30px; */
-    width: 100%;
+   
+    font-size: 30px;
+    line-height: 45px;
+    text-align: left;
+    color: #6A677A;
+
+}
+@media screen and (max-width: 900px) {
+  .banner{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0px;
+
+  }
+  .banner-text{
+   
+    font-size: 20px;
     line-height: 30px;
+    text-align: center;
+    color: #6A677A;
+
+}
 }

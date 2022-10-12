@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Header from '../Header/Header';
 import Quiz from '../Quiz/Quiz';
@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <div className='home'>
           <Header></Header>
-          <h2>Quiz Categories</h2>
+          <h1 className='category-title'>Quiz Categories</h1>
           <hr className='line'/>
           <div className="quiz-container">
           {
@@ -22,6 +22,7 @@ const Home = () => {
         
           ></Quiz>)
           }
+        
           </div>
         </div>
     );
