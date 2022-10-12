@@ -6,6 +6,9 @@ import Home from './components/Home/Home';
 import QuizDetails from './components/QuizDetails/QuizDetails';
 import Statistics from './components/Statistics/Statistics';
 import Main from './layouts/Main';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   const router = createBrowserRouter([
@@ -49,6 +52,7 @@ function App() {
   return (
     <div className="App">
       <RouterProvider router ={router}></RouterProvider>
+<ToastContainer></ToastContainer>
     </div>
   );
 }

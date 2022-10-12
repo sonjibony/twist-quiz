@@ -4,10 +4,6 @@ import SingleQuiz from '../SingleQuiz/SingleQuiz';
 import './QuizDetails.css';
 const QuizDetails = () => {
     const details = useLoaderData();
-
-    
-
-    // console.log(details.data.questions[0].id);
     return (
         <div className='single-quiz'>
             <h2 className='quiz-title' >Quizzes Of {details.data.name}</h2>

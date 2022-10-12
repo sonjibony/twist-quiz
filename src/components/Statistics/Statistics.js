@@ -9,7 +9,8 @@ const Statistics = () => {
 console.log(stats.data)
     return (
         <div className='graph'>
-
+<h1>Available Quiz Quantity</h1>
+<p> The graph shown below shows which topic has the most quizzes.</p>
       <ResponsiveContainer width="100%" height={400}>
 
 <LineChart width={500} height={400} data={stats.data}  >

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import './SingleQuiz.css';
 import 'react-toastify/dist/ReactToastify.css';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const SingleQuiz = ({detail,index}) => {
     const {question, options,correctAnswer} = detail;
@@ -21,12 +21,12 @@ const onAnswerSelect = selectedAnswer =>{
 const onEyeSelect = () =>{
 toast.info(correctAnswer)
 }
-    // console.log(detail)
     return (
         <div className='detail'>
+            
+
             <div className="question-container">
-       {/* <h4>{index}.</h4> 
-            <h4 className='question' dangerouslySetInnerHTML={{__html:question}}></h4> */}
+       
               <h4 className='question' dangerouslySetInnerHTML={{__html:`${index}.${question}`}}></h4>
               <div>
             <FontAwesomeIcon icon={faEye} onClick={onEyeSelect}></FontAwesomeIcon>
@@ -35,13 +35,15 @@ toast.info(correctAnswer)
             <div className='quiz-options'>
             {
                 options.map ( op =>
-            <button key={op} className='option'> <input  type="radio" name="option" value={op} 
-            onChange={(e) => onAnswerSelect(e.target.value)} /> {op}         <ToastContainer />
-            </button>
+            <label key={op} className='option'> <input  type="radio" name="option" value={op} 
+            onChange={(e) => onAnswerSelect(e.target.value)} /> {op}        
+             {/* <ToastContainer /> */}
+            </label>
             // <button  key={op}  className='option'> {op}</button>
                 )
             }
             </div>
+ 
         </div>
     );
 };

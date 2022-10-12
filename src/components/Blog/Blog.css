@@ -63,6 +63,7 @@ object-fit: cover;
     grid-template-columns: 1fr 3fr;
     margin: 100px;
     margin-bottom: 0px;
+    padding-bottom: 50px;
 }
 .use-ref img{
 height: 300px;

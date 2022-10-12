@@ -5,6 +5,23 @@
     margin-right: 15px;
     border-radius: 7px;
 }
+
+.question{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3px;
+    padding-left: 70px;
+    
+}
+.question-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .option{
     height: 90px;
     padding-left: 25px;
@@ -27,9 +44,17 @@
     gap: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 30px;
     
 }
 @media screen and (max-width: 900px) {
+    .question{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        
+    }
     .quiz-options{
         display: flex;
         flex-direction: column;
@@ -38,7 +63,8 @@
     .question-container{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        margin-bottom:15px ;
+        /* flex-wrap: wrap; */
     }
     
 }

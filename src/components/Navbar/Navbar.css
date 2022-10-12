@@ -23,3 +23,6 @@ font-size: larger;
 font-weight: 600;
 color: black;
 }
+.nav a:hover{
+    color: #6a677a;
+}

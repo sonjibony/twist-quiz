@@ -28,7 +28,7 @@ const Blog = () => {
         <div className="context-api">
             <img src={"https://www.loginradius.com/blog/static/157af7ff069ab273224b4718433d9790/03979/title-image.png"} alt=""></img>
             <div className='ques-ans'>
-                    <h2 className='ques'>2.How does Context API work in react?</h2>
+                    <h2 className='ques'>3.How does Context API work in react?</h2>
                     <p className='ans'>The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on.For example, some use cases the Context API is ideal for: theming, user language, authentication, etc  
                </p>
                 </div>  
