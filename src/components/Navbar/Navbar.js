@@ -22,7 +22,7 @@ const [open,setOpen] =useState(false);
       <nav className={`nav ${open ? 'bar-style-one' : 'bar-style-two'}`}>
         <Link to="/">Home</Link>
         <Link to="/statistics">Statistics</Link>
-        <Link to="/blog">Blog</Link>
+        <Link to="/blog">Blogs</Link>
       </nav>
       </div>
     </div>
